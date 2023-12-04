@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AD3E6C2B1DC03900862EC2 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD3E6B2B1DC03900862EC2 /* ErrorManager.swift */; };
 		18BBD69C2B1A0B3E0038373C /* APImanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBD69B2B1A0B3E0038373C /* APImanager.swift */; };
 		18DA481C2B18724500D1CC91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA481B2B18724400D1CC91 /* AppDelegate.swift */; };
 		18DA481E2B18724500D1CC91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA481D2B18724500D1CC91 /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18AD3E6B2B1DC03900862EC2 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
 		18BBD69B2B1A0B3E0038373C /* APImanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APImanager.swift; sourceTree = "<group>"; };
 		18DA48182B18724400D1CC91 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DA481B2B18724400D1CC91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18AD3E6D2B1DC2DB00862EC2 /* weatherModel */ = {
+			isa = PBXGroup;
+			children = (
+				18DA48312B18BAD700D1CC91 /* WeatherIconManager.swift */,
+				18DA482F2B18B7DC00D1CC91 /* CurrentWeather.swift */,
+			);
+			path = weatherModel;
+			sourceTree = "<group>";
+		};
 		18DA480F2B18724400D1CC91 = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +74,11 @@
 			isa = PBXGroup;
 			children = (
 				18DA481B2B18724400D1CC91 /* AppDelegate.swift */,
+				18AD3E6B2B1DC03900862EC2 /* ErrorManager.swift */,
 				18BBD69B2B1A0B3E0038373C /* APImanager.swift */,
 				18DA481D2B18724500D1CC91 /* SceneDelegate.swift */,
 				18DA481F2B18724500D1CC91 /* ViewController.swift */,
-				18DA48312B18BAD700D1CC91 /* WeatherIconManager.swift */,
-				18DA482F2B18B7DC00D1CC91 /* CurrentWeather.swift */,
+				18AD3E6D2B1DC2DB00862EC2 /* weatherModel */,
 				18DA48212B18724500D1CC91 /* Main.storyboard */,
 				18DA48242B18724700D1CC91 /* Assets.xcassets */,
 				18DA48262B18724700D1CC91 /* LaunchScreen.storyboard */,
@@ -148,6 +159,7 @@
 			files = (
 				18DA48302B18B7DC00D1CC91 /* CurrentWeather.swift in Sources */,
 				18DA48202B18724500D1CC91 /* ViewController.swift in Sources */,
+				18AD3E6C2B1DC03900862EC2 /* ErrorManager.swift in Sources */,
 				18DA48322B18BAD700D1CC91 /* WeatherIconManager.swift in Sources */,
 				18DA481C2B18724500D1CC91 /* AppDelegate.swift in Sources */,
 				18BBD69C2B1A0B3E0038373C /* APImanager.swift in Sources */,
